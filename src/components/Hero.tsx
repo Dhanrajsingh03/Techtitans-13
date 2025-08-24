@@ -105,7 +105,7 @@ const Hero = () => {
                       transition={{ delay: 0.5 }}
                       className="block lg:inline"
                     >
-                      Tech{" "}
+                      Techi{" "}
                     </motion.span>
                     <motion.span
                       initial={{ opacity: 0, y: 20 }}
