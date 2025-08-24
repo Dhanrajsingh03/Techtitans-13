@@ -97,25 +97,27 @@ const Hero = () => {
                 </motion.div>
 
                 {/* Tech Titans Title */}
+                {/* Tech Titans Title */}
                 <div className="flex flex-col items-center justify-center w-full">
-                  <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-gray-900 leading-tight sm:leading-none text-center">
+                  <h1 className="whitespace-nowrap text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-gray-900 leading-tight sm:leading-none text-center">
                     <motion.span
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.5 }}
-                      className="block lg:inline"
+                      className="mr-2"
                     >
-                      Techi{" "}
+                      Tech
                     </motion.span>
                     <motion.span
                       initial={{ opacity: 0, y: 20 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.7 }}
-                      className="text-blue-600 block lg:inline"
+                      className="text-blue-600"
                     >
                       Titans
                     </motion.span>
                   </h1>
+
                   <motion.p
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -125,6 +127,7 @@ const Hero = () => {
                     The Powerhouse of Innovation & Creativity! 🎬📸
                   </motion.p>
                 </div>
+
               </div>
             </div>
 
@@ -142,56 +145,56 @@ const Hero = () => {
           </motion.div>
 
           {/* Animated Feature Icons */}
-       <div className="w-full mb-12 sm:mb-16">
-  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6 w-full">
-    {[
-      { icon: Palette, label: 'Graphic Design', color: 'bg-blue-600', count: '4 Members' },
-      { icon: Video, label: 'Video Editing', color: 'bg-emerald-600', count: '4 Members' },
-      { icon: Share2, label: 'Social Media', color: 'bg-orange-600', count: '4 Members' },
-      { icon: Camera, label: 'Photography', color: 'bg-indigo-600', count: '3 Members' },
-    ].map((item, index) => (
-      <motion.div
-        key={item.label}
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.3 + (index * 0.1) }}
-        whileHover={{ y: -8 }}
-        className="group"
-      >
-        <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-          <div className={`w-9 h-9 sm:w-12 sm:h-12 ${item.color} rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-2 sm:mb-4 group-hover:scale-110 transition-transform`}>
-            <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-          </div>
-          <h4 className="text-gray-900 font-bold text-xs sm:text-sm mb-1">{item.label}</h4>
-          <p className="text-gray-500 text-[11px] sm:text-xs">{item.count}</p>
-        </div>
-      </motion.div>
-    ))}
+          <div className="w-full mb-12 sm:mb-16">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 sm:gap-6 w-full">
+              {[
+                { icon: Palette, label: 'Graphic Design', color: 'bg-blue-600', count: '4 Members' },
+                { icon: Video, label: 'Video Editing', color: 'bg-emerald-600', count: '4 Members' },
+                { icon: Share2, label: 'Social Media', color: 'bg-orange-600', count: '4 Members' },
+                { icon: Camera, label: 'Photography', color: 'bg-indigo-600', count: '3 Members' },
+              ].map((item, index) => (
+                <motion.div
+                  key={item.label}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 1.3 + (index * 0.1) }}
+                  whileHover={{ y: -8 }}
+                  className="group"
+                >
+                  <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div className={`w-9 h-9 sm:w-12 sm:h-12 ${item.color} rounded-lg sm:rounded-xl flex items-center justify-center mx-auto mb-2 sm:mb-4 group-hover:scale-110 transition-transform`}>
+                      <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                    </div>
+                    <h4 className="text-gray-900 font-bold text-xs sm:text-sm mb-1">{item.label}</h4>
+                    <p className="text-gray-500 text-[11px] sm:text-xs">{item.count}</p>
+                  </div>
+                </motion.div>
+              ))}
 
-    {/* Technical card: always center in its line for all views */}
-  <motion.div
-  key="Technical"
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 1.5 }}
-  whileHover={{ y: -8 }}
-   className="
+              {/* Technical card: always center in its line for all views */}
+              <motion.div
+                key="Technical"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.5 }}
+                whileHover={{ y: -8 }}
+                className="
         group
         col-span-2 flex justify-center
         sm:col-span-1 sm:justify-center
         md:col-span-1 md:justify-center
       "
->
-  <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 w-full flex flex-col items-center min-w-0">
-    <div className="w-9 h-9 sm:w-12 sm:h-12 bg-purple-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-2 sm:mb-4 group-hover:scale-110 transition-transform">
-      <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-    </div>
-    <h4 className="text-gray-900 font-bold text-xs sm:text-sm mb-1 text-center">Technical</h4>
-    <p className="text-gray-500 text-[11px] sm:text-xs text-center">10 Members</p>
-  </div>
-</motion.div>
-  </div>
-</div>
+              >
+                <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 w-full flex flex-col items-center min-w-0">
+                  <div className="w-9 h-9 sm:w-12 sm:h-12 bg-purple-600 rounded-lg sm:rounded-xl flex items-center justify-center mb-2 sm:mb-4 group-hover:scale-110 transition-transform">
+                    <Zap className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                  </div>
+                  <h4 className="text-gray-900 font-bold text-xs sm:text-sm mb-1 text-center">Technical</h4>
+                  <p className="text-gray-500 text-[11px] sm:text-xs text-center">10 Members</p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
 
           {/* CTA */}
           <div className="mb-12 sm:mb-16 w-full flex justify-center">
