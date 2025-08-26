@@ -3,7 +3,8 @@ import Hero from './components/Hero';
 import Faculty from './components/Faculty';
 import Teams from './components/Teams';
 import Footer from './components/Footer';
-import JoinForm from './components/joinForm'
+import JoinForm from './components/joinForm';
+// import ApplicationsList from './components/fetchdata'; // 👈 new import
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <Faculty />
       <Teams />
       <JoinForm />
+      {/* <ApplicationsList />   👈 show submitted data here */}
       <Footer />
-      
     </div>
   );
 }
