@@ -51,21 +51,21 @@ const teams: Team[] = [
       { name: 'Sumit Raj', role: 'Category Head', id: '2023-CSE-048', instagramUrl: 'https://www.instagram.com/sum1t.svg/profilecard/', linkedinUrl: 'https://www.linkedin.com/in/sumit-raj-512724322/', isHead: true, profilePic: '/images/members/sumit2.jpg' },
       { name: 'Himanshu Kumar', role: 'Designer', id: '2024-EC-040', instagramUrl: 'https://www.instagram.com/himanshukumardz', linkedinUrl: 'https://www.linkedin.com/in/himanshu-kumar', profilePic: '/images/members/himanshu.jpg' },
       { name: 'Sunny Kumar', role: 'Designer', id: '2024-CSE-054', instagramUrl: 'https://www.instagram.com/sunny_creative', linkedinUrl: 'https://www.linkedin.com/in/sunny-kumar', profilePic: '/images/members/sunny-kumar.jpg' },
-      { name: 'Mansi Kumari', role: 'Designer', id: '2024-EE-007', instagramUrl: 'https://www.instagram.com/mansi_art', linkedinUrl: 'https://www.linkedin.com/in/mansi-kumari', profilePic: '/images/members/mansi-kumari.jpg' },
+      { name: 'Mansi Kumari', role: 'Designer', id: '2024-EE-007', instagramUrl: 'https://www.instagram.com/ma_n22s1i28', linkedinUrl: 'https://www.linkedin.com/in/mansi-kumari', profilePic: '/images/members/mansi.jpg' },
     ],
     work: [
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 1' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 2' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 3' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 1' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 2' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 3' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 1' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 2' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 3' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 1' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 2' },
-      { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 3' },
+      { type: 'image', url: 'https://i.postimg.cc/pXXLsH0w/chka-chak.jpg', alt: 'Graphic Work 1' },
+      { type: 'image', url: 'https://i.postimg.cc/gj0bHYY4/fresher.jpg', alt: 'Graphic Work 2' },
+      { type: 'image', url: 'https://i.postimg.cc/DZnTmrH9/iot.jpg', alt: 'Graphic Work 3' },
+      { type: 'image', url: 'https://i.postimg.cc/PxykDLkP/iot2.jpg', alt: 'Graphic Work 1' },
+      { type: 'image', url: 'https://i.postimg.cc/pdDv2GGQ/ngp.jpg', alt: 'Graphic Work 2' },
+      { type: 'image', url: 'https://i.postimg.cc/13BTMkjj/faculty.jpg', alt: 'Graphic Work 3' },
+      { type: 'image', url: 'https://i.postimg.cc/BnMGVLzs/Blue-and-Yellow-Vibrant-Modern-Illustrative-Modern-Volleyball-Tournament-Poster.png', alt: 'Graphic Work 1' },
+      { type: 'image', url: 'https://i.postimg.cc/zXY5b1Wm/Earth-Day-Facebook-Post.png', alt: 'Graphic Work 2' },
+      { type: 'image', url: 'https://i.postimg.cc/ncKxqwYX/Quiz-competition.png', alt: 'Graphic Work 3' },
+      // { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 1' },
+      // { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 2' },
+      // { type: 'image', url: 'https://www.admecindia.co.in/wp-content/uploads/2024/10/why-graphic-design-about-creativity-not-just-tools-1.jpg', alt: 'Graphic Work 3' },
     ],
   },
   {
@@ -75,13 +75,13 @@ const teams: Team[] = [
     color: 'emerald',
     members: [
       { name: 'Prashant Kumar', role: 'Editor', id: '2023-CSE-038', instagramUrl: 'https://www.instagram.com/photography_by_pks', linkedinUrl: 'https://www.linkedin.com/in/prashant-kumar', isHead: true, profilePic: 'images/members/prashant.jpg' },
-      { name: 'Deepa Chandra', role: 'Editor', id: '2023-EC-053', instagramUrl: 'https://www.instagram.com/deepa_edits', linkedinUrl: 'https://www.linkedin.com/in/deepa-chandra', isHead: true, profilePic: '/images/members/deepa2.jpg' },
-      { name: 'Sumit Kumar', role: 'Editor', id: '2023-EE-013', instagramUrl: 'https://www.instagram.com/sumit_motion', linkedinUrl: 'https://www.linkedin.com/in/sumit-kumar-el', profilePic: '/images/members/sumit.jpg' },
+      { name: 'Deepa Chandra', role: 'Editor', id: '2023-EC-053', instagramUrl: 'https://www.instagram.com/_roamy___', linkedinUrl: 'https://www.linkedin.com/in/deepa-chandra', isHead: true, profilePic: '/images/members/deepa2.jpg' },
+      { name: 'Sumit Kumar', role: 'Editor', id: '2023-EE-013', instagramUrl: 'https://www.instagram.com/sky_sumit07', linkedinUrl: 'https://www.linkedin.com/in/sumit-kumar-el', profilePic: '/images/members/sumit.jpg' },
       { name: 'Aaryan', role: 'Editor', id: '2024-CSE-047', instagramUrl: 'https://www.instagram.com/mugiwara_ya_7', linkedinUrl: 'https://www.linkedin.com/in/aaryan', profilePic: 'images/members/aryan.jpg' },
     ],
     work: [
-      { type: 'youtube', url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', title: 'Video Work 1' },
-      { type: 'youtube', url: 'https://www.youtube.com/embed/C5vIuH_Ff0c', title: 'Video Work 2' },
+      { type: 'image', url: 'images/members/comming.jpg', alt: 'Photography Work 1' },
+
     ],
   },
   {
@@ -90,14 +90,15 @@ const teams: Team[] = [
     icon: Share2,
     color: 'orange',
     members: [
-      { name: 'Angel', role: 'Category Head', id: '2023-EC-045', instagramUrl: 'https://www.instagram.com/angel_sm', linkedinUrl: 'https://www.linkedin.com/in/angel', isHead: true, profilePic: '/images/members/angel.jpg' },
+      { name: 'Angel', role: 'Category Head', id: '2023-EC-045', instagramUrl: 'https://www.instagram.com/itsmeangel_4', linkedinUrl: 'https://www.linkedin.com/in/angel-441a322a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', isHead: true, profilePic: 'https://i.postimg.cc/L6Kh3HN9/angel.jpg' },
       { name: 'Nitish Kumar Paswan', role: 'Manager', id: '2023-EE-027', instagramUrl: 'https://www.instagram.com/nitish_kmr.ro45', linkedinUrl: 'https://www.linkedin.com/in/nitish-paswan', profilePic: 'images/members/nitish.jpg' },
       { name: 'Prince Kushagra', role: 'Manager', id: '2024-EC-050', instagramUrl: 'https://www.instagram.com/princeranjan9819', linkedinUrl: 'https://www.linkedin.com/in/prince-kushagra-ranjan-92b314375', profilePic: '/images/members/prince.jpg' },
       { name: 'Aditya Kumar Singh', role: 'Manager', id: '2024-CE-090', instagramUrl: 'https://www.instagram.com/the_aditya_singh_rajput', linkedinUrl: 'https://www.linkedin.com/in/aditya-kumar-singh-753967378', profilePic: '/images/members/aditya.jpg' },
     ],
     work: [
-      { type: 'instagram', url: 'https://www.instagram.com/p/C69mX_2yH1d/', title: 'Instagram Post dhanraj singh' },
-      { type: 'facebook', url: 'https://www.facebook.com/facebook/posts/10161423450536729', title: 'Facebook Post' },
+      { type: 'instagram', url: 'https://www.instagram.com/reel/DNoUOSKzUZE/?igsh=MTN5Z2l0YzdtMGQ3eA==', title: 'Independance Day 2025' },
+      { type: 'instagram', url: 'https://www.instagram.com/p/DNoYhUvzS1P/?img_index=2&igsh=MWNweTFhdWowZHVoeg==', title: 'Blood Donation ' },
+      { type: 'instagram', url: 'https://www.instagram.com/p/DNpm8sgSzy0/?igsh=MWozbGNuNml3NWZhZg==', title: 'Sports Day 2025' },
     ],
   },
   {
@@ -106,14 +107,17 @@ const teams: Team[] = [
     icon: Camera,
     color: 'indigo',
     members: [
-      { name: 'Mritunjay Kumar', role: 'Category Head', id: '2023-EC-024', instagramUrl: 'https://www.instagram.com/mrityunjay_lens', linkedinUrl: 'https://www.linkedin.com/in/mrityunjay-kumar', isHead: true, profilePic: '/images/members/mrityunjay-kumar.jpg' },
+      { name: 'Mritunjay Kumar', role: 'Category Head', id: '2023-EC-024', instagramUrl: 'https://www.instagram.com/nitesh_king7', linkedinUrl: 'https://www.linkedin.com/in/mrityunjay-kumar', isHead: true, profilePic: '/images/members/mritunjay.jpg' },
       { name: 'Raunak Kumar Singh', role: 'Photographer', id: '2024-ECE-055', instagramUrl: 'https://www.instagram.com/abcd_rks_xyz', linkedinUrl: 'https://www.linkedin.com/in/raunak-kumar-singh', profilePic: '/images/members/raunak.jpg' },
-      { name: 'Shreeyansh Kumar', role: 'Photographer', id: '2024-A-054', instagramUrl: 'https://www.instagram.com/shreeyansh_shots', linkedinUrl: 'https://www.linkedin.com/in/shreeyansh-kumar', profilePic: '/images/members/shree.jpg' },
+      { name: 'Shreeyansh Kumar', role: 'Photographer', id: '2024-A-054', instagramUrl: 'https://www.instagram.com/___shreyanshh__07', linkedinUrl: 'https://www.linkedin.com/in/shreeyansh-kumar-369abb36b', profilePic: '/images/members/shreeyansh.jpg' },
     ],
     work: [
-      { type: 'google-photos', url: 'https://photos.app.goo.gl/your-album-link', thumbnail: 'https://www.shutterstock.com/image-photo/blond-hair-girl-taking-photo-260nw-2492842415.jpg', title: 'Photo Album' },
-      { type: 'image', url: 'https://i.postimg.cc/63xGLGG1/tech.jpg', alt: 'Photography Work 1' },
-      { type: 'image', url: 'https://images.unsplash.com/photo-1517457210712-87a27e779a1f?q=80&w=1528&auto=format&fit=crop', alt: 'Photography Work 2' },
+      { type: 'google-photos', url: 'https://photos.app.goo.gl/Ee8iZF3KLkfzvMeR8', thumbnail: 'images/members/independace day.png', title: 'Independence Day Photos' },
+      { type: 'google-photos', url: 'https://photos.app.goo.gl/RRjEMm7BFjZLZCLL7', thumbnail: 'images/members/blood donation.png', title: 'Blood Donation Photos' },
+      { type: 'google-photos', url: 'https://photos.app.goo.gl/8xDTMEZPPqdA83dm6', thumbnail: 'images/members/sports.png', title: 'Sports day' },
+
+      // { type: 'image', url: 'https://i.postimg.cc/63xGLGG1/tech.jpg', alt: 'Photography Work 1' },
+      // { type: 'image', url: 'https://images.unsplash.com/photo-1517457210712-87a27e779a1f?q=80&w=1528&auto=format&fit=crop', alt: 'Photography Work 2' },
     ],
   },
   {
@@ -124,17 +128,17 @@ const teams: Team[] = [
     members: [
       { name: 'Manjeet Kumar', role: 'Category Head', id: '2023-EC-09', instagramUrl: 'https://www.instagram.com/manjeet_tech', linkedinUrl: 'https://www.linkedin.com/in/manjeet-kumar', isHead: true, profilePic: '/images/members/manjeet-kumar.jpg' },
       { name: 'Dhanraj Kumar', role: 'Category Head', id: '2023-EC-39', instagramUrl: 'https://www.instagram.com/iam_perfect.03', linkedinUrl: 'https://www.linkedin.com/in/dhanraj-kumar-490a6136a', portfolioUrl: 'https://dhanrajsinghportfolio-fca04.web.app', isHead: true, profilePic: 'https://dhanrajsinghportfolio-fca04.web.app/photo.jpg' },
-      { name: 'Krishna Kanhaiya', role: 'Technical Specialist', id: '2023-EC-088', instagramUrl: 'https://www.instagram.com/krishnakanhaiya8051',portfolioUrl: 'https://krishnaofficial.netlify.app/', linkedinUrl: 'https://www.linkedin.com/in/krishna-kanhaiya', profilePic: 'images/members/krishna .jpg' },
+      { name: 'Krishna Kanhaiya', role: 'Technical Specialist', id: '2023-EC-088', instagramUrl: 'https://www.instagram.com/krishnakanhaiya8051', portfolioUrl: 'https://krishnaofficial.netlify.app/', linkedinUrl: 'https://www.linkedin.com/in/krishna-kanhaiya', profilePic: 'images/members/krishna .jpg' },
       { name: 'Chhavi Kumari', role: 'Technical Specialist', id: '2023-C-031', instagramUrl: 'https://www.instagram.com/chhavi_tech', linkedinUrl: 'https://www.linkedin.com/in/chhavi-kumari', profilePic: '/images/members/chhavi-kumari.jpg' },
-      { name: 'Umashankar Kumar', role: 'Technical Specialist', id: '2024-CSE-036', instagramUrl: 'https://www.instagram.com/umashankar_tech', linkedinUrl: 'https://www.linkedin.com/in/umashankar-kumar', profilePic: '/images/members/umashankar-kumar.jpg' },
+      { name: 'Umashankar Kumar', role: 'Technical Specialist', id: '2024-CSE-036', instagramUrl: 'https://www.instagram.com/uma_shankar_yadav22133', linkedinUrl: 'https://www.linkedin.com/in/umashankar-kumar', profilePic: '/images/members/umaa.jpg' },
       { name: 'Sona', role: 'Technical Specialist', id: '2023-EC-055', instagramUrl: 'https://www.instagram.com/its_sona_765', linkedinUrl: 'https://www.linkedin.com/in/sona-575927380', profilePic: '/images/members/sona.jpg' },
       { name: 'Anushka Chaudhary', role: 'Technical Specialist', id: '2024-EC-007', instagramUrl: 'https://www.instagram.com/anushka_tech', linkedinUrl: 'https://www.linkedin.com/in/anushka-chaudhary', profilePic: '/images/members/anushka-chaudhary.jpg' },
       { name: 'Taniya Kumari', role: 'Technical Specialist', id: '2024-ECE-016', instagramUrl: 'https://www.instagram.com/demyra_lilly_', linkedinUrl: 'https://www.linkedin.com/in/taniya-kumari', profilePic: '/images/members/tanya.jpg' },
-      { name: 'Rachana Bharti', role: 'Technical Specialist', id: '2024-ECE-062', instagramUrl: 'https://www.instagram.com/rachana_tech', linkedinUrl: 'https://www.linkedin.com/in/rachana-bharti', profilePic: '/images/members/rachana-bharti.jpg' },
+      { name: 'Rachana Bharti', role: 'Technical Specialist', id: '2024-ECE-062', instagramUrl: 'https://www.instagram.com/rachu.1802', linkedinUrl: 'https://www.linkedin.com/in/rachana-bharti', profilePic: '/images/members/rachna.jpg' },
       { name: 'Priyanshu Kumar Ray', role: 'Technical Specialist', id: '2024-ECE-019', instagramUrl: 'https://www.instagram.com/priyanshu_tech', linkedinUrl: 'https://www.linkedin.com/in/priyanshu-kumar-ray', profilePic: '/images/members/priyanshu-kumar-ray.jpg' },
     ],
     work: [
-      { type: 'youtube', url: 'https://www.youtube.com/embed/your-tech-video', title: 'Technical Work 1' },
+      { type: 'image', url: 'images/members/comming.jpg', alt: 'Photography Work 1' },
     ],
   },
 ];
@@ -182,10 +186,10 @@ const Teams: React.FC = () => {
                       className={`px-6 py-3 rounded-full font-semibold transition-colors duration-300 transform scale-100 hover:scale-105
                         bg-${team.color}-600 text-white hover:bg-${team.color}-700 focus:outline-none focus:ring-2 focus:ring-${team.color}-500 focus:ring-offset-2
                         ${team.color === 'emerald' ? 'bg-emerald-600 hover:bg-emerald-700 focus:ring-emerald-500' :
-                        team.color === 'blue' ? 'bg-blue-600 hover:bg-blue-700 focus:ring-blue-500' :
-                        team.color === 'orange' ? 'bg-orange-600 hover:bg-orange-700 focus:ring-orange-500' :
-                        team.color === 'indigo' ? 'bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500' :
-                        'bg-purple-600 hover:bg-purple-700 focus:ring-purple-500'}`}
+                          team.color === 'blue' ? 'bg-blue-600 hover:bg-blue-700 focus:ring-blue-500' :
+                            team.color === 'orange' ? 'bg-orange-600 hover:bg-orange-700 focus:ring-orange-500' :
+                              team.color === 'indigo' ? 'bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500' :
+                                'bg-purple-600 hover:bg-purple-700 focus:ring-purple-500'}`}
                     >
                       See Their Work
                     </button>

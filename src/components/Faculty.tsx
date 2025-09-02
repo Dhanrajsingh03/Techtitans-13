@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Twitter, Award, Users } from 'lucide-react';
+import { Mail, Award, Users } from 'lucide-react';
 
 const Faculty = () => {
   const facultyMembers = [
@@ -7,18 +7,16 @@ const Faculty = () => {
       name: 'Mrs. Anushka Pradhan',
       title: 'Faculty Coordinator',
       department: 'Electronics Department',
-      email: 'anushka.pradhan@college.edu',
-      twitter: '@anushka_pradhan',
-      image: 'https://static.vecteezy.com/system/resources/previews/003/715/527/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg',
+      email: 'a.pradhan2780@gmail.com',
+      image: 'images/members/anushka mam.jpg',
       specialization: 'Digital Innovation & Creative Technology'
     },
     {
       name: 'Mrs. Shweta Chaubey',
       title: 'Faculty Coordinator',
       department: 'Electrical Department',
-      email: 'shweta.chaubey@college.edu',
-      twitter: '@shweta_chaubey',
-      image: 'https://static.vecteezy.com/system/resources/previews/003/715/527/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg',
+      email: 'swetabhu47@gmail.com',
+      image: 'images/members/sweta mam.jpg',
       specialization: 'Technical Systems & Event Management'
     },
     {
@@ -26,7 +24,6 @@ const Faculty = () => {
       title: 'Faculty Coordinator',
       department: 'Computer Science Department',
       email: 'umar.farooque@college.edu',
-      twitter: '@umar_farooque',
       image: 'https://static.vecteezy.com/system/resources/previews/003/715/527/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg',
       specialization: 'Project Management & Innovation'
     }
@@ -85,12 +82,6 @@ const Faculty = () => {
                       className="group/link w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center hover:bg-blue-600 transition-all duration-300 transform hover:scale-110"
                     >
                       <Mail className="w-5 h-5 text-blue-600 group-hover/link:text-white transition-colors" />
-                    </a>
-                    <a
-                      href={`https://twitter.com/${member.twitter.substring(1)}`}
-                      className="group/link w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center hover:bg-emerald-600 transition-all duration-300 transform hover:scale-110"
-                    >
-                      <Twitter className="w-5 h-5 text-emerald-600 group-hover/link:text-white transition-colors" />
                     </a>
                   </div>
                 </div>
