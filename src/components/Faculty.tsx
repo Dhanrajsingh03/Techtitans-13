@@ -14,7 +14,7 @@ const Faculty = () => {
     {
       name: 'Mrs. Shweta Chaubey',
       title: 'Faculty Coordinator',
-      department: 'Electrical Department',
+      department: 'Basic Science and Humanities Department',
       email: 'swetabhu47@gmail.com',
       image: 'images/members/sweta mam.jpg',
       specialization: 'Technical Systems & Event Management'
@@ -23,7 +23,7 @@ const Faculty = () => {
       name: 'Mr. Umar Farooque',
       title: 'Faculty Coordinator',
       department: 'Computer Science Department',
-      email: 'umar.farooque@college.edu',
+      email: '/',
       image: 'https://static.vecteezy.com/system/resources/previews/003/715/527/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg',
       specialization: 'Project Management & Innovation'
     }

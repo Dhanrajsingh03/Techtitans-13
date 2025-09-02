@@ -214,11 +214,21 @@ const Hero = () => {
           </div>
 
           {/* Principal Section */}
-          <div className="bg-gray-50 rounded-xl sm:rounded-3xl p-6 sm:p-8 border-2 border-gray-100 w-full max-w-xl mx-auto">
-            <p className="text-gray-600 text-xs sm:text-sm mb-2">Under the inspiring leadership of</p>
-            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-2">Dr. Chandra Shekhar Singh</h3>
+         {/* Principal Section */}
+        <div className="bg-gray-50 rounded-2xl sm:rounded-3xl p-6 sm:p-8 border-2 border-gray-100 w-full max-w-2xl mx-auto flex flex-col sm:flex-row items-center text-center sm:text-left space-y-4 sm:space-y-0 sm:space-x-6">
+          {/* Profile Picture */}
+          <img
+            className="w-24 h-24 sm:w-28 sm:h-28 rounded-full object-cover border-4 border-white shadow-lg flex-shrink-0"
+            src="images/members/principle.jpg" // IMPORTANT: Place the image named 'principal.jpg' in your `public` folder.
+            alt="Profile picture of Dr. Chandra Shekhar Singh"
+          />
+          {/* Text Content */}
+          <div>
+            <p className="text-gray-600 text-sm sm:text-base mb-2">Under the inspiring leadership of</p>
+            <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-1">Dr. Chandra Shekhar Singh</h3>
             <p className="text-blue-600 font-semibold text-base sm:text-lg">Principal</p>
           </div>
+        </div>
         </div>
       </div>
     </section>

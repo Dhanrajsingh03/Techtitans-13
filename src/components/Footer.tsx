@@ -53,7 +53,7 @@ const Footer = () => {
                   {
                     icon: Instagram,
                     color: 'bg-gradient-to-br from-pink-500 to-purple-600',
-                    url: 'https://www.instagram.com/techtitanscollege',
+                    url: 'https://www.instagram.com/officially_techtitans',
                   },
                   {
                     icon: Twitter,
@@ -100,16 +100,16 @@ const Footer = () => {
                   <div className="w-10 h-10 sm:w-11 sm:h-11 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-md">
                     <Mail className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
-                  <p className="text-white font-medium text-base">techtitans@gmail.com</p>
+                  <p className="text-white font-medium text-base">techtitans826@gmail.com</p>
                 </div>
 
-                {/* Phone */}
+                {/* Phone
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 sm:w-11 sm:h-11 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-xl flex items-center justify-center shadow-md">
                     <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                   </div>
                   <p className="text-white font-medium text-base">+91 XXXXXXXXXX</p>
-                </div>
+                </div> */}
 
                 {/* Location */}
                 <div className="flex items-center gap-3">
